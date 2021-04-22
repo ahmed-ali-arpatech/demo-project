@@ -2,7 +2,7 @@
 
 namespace Titus\Beatle;
 
-class Greetr
+class Greeter
 {
     public static function greet(String $sName)
     {
