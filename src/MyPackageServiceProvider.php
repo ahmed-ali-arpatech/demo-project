@@ -23,7 +23,7 @@ class MyPackageServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->app->make('Titus\Beatle\Greeter');
+        // $this->app->make('Titus\Beatle\Greeter');
 
         $this->publishes([
             __DIR__.'/../database/migrations/' => database_path('migrations')
