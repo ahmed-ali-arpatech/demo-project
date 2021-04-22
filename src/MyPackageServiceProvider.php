@@ -13,7 +13,7 @@ class MyPackageServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->make('Titus\Beatle\Greeter');
     }
 
     /**
@@ -22,9 +22,7 @@ class MyPackageServiceProvider extends ServiceProvider
      * @return void
      */
     public function boot()
-    {
-        // $this->app->make('Titus\Beatle\Greeter');
-
+    { 
         $this->publishes([
             __DIR__.'/../database/migrations/' => database_path('migrations')
         ], 'migrations');
