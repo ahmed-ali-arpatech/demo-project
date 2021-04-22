@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Titus\Beatle;
 
 use Illuminate\Support\ServiceProvider;
 
