@@ -18,7 +18,7 @@
             "database/migrations"        
         ],
         "files": [
-            "src/helpers.php"
+            "src/Helpers/helpers.php"
         ]
     },
     "require": {}
