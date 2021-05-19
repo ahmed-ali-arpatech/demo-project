@@ -13,8 +13,7 @@ class MyPackageServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Titus\Beatle\Greeter');
-        
+        $this->app->make('Titus\Beatle\Greeter');        
     }
 
     /**
@@ -28,5 +27,11 @@ class MyPackageServiceProvider extends ServiceProvider
         //     __DIR__.'/../database/migrations/' => database_path('migrations')
         // ], 'migrations');
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+
+
+        if (file_exists($file = app_path('Helpers/Helpers.php')))
+        {
+            require $file;
+        }
     }
 }

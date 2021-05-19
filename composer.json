@@ -16,6 +16,9 @@
         },
         "classmap": [
             "database/migrations"        
+        ],
+        "files": [
+            "src/Helpers/helpers.php"
         ]
     },
   
