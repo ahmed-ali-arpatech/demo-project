@@ -8,4 +8,9 @@ class Greeter
     {
         return 'Hi ' . $sName . '! How are you doing today?';
     }
+
+    public static function greet2(String $sName)
+    {
+        return 'Hi ' . $sName . '! How are you doing today?';
+    }
 }
