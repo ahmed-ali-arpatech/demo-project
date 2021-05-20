@@ -29,7 +29,7 @@ class MyPackageServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
 
 
-        if (file_exists($file = app_path('Helpers/Helpers.php')))
+        if (file_exists($file = app_path('Helpers/helpers.php')))
         {
             require $file;
         }
