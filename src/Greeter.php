@@ -11,6 +11,6 @@ class Greeter
 
     public static function greet2(String $sName)
     {
-        return 'Hi ' . $sName . '! How are you doing today?';
+        return 'Hello ' . $sName . '! How have you been Mr. '.$sName.' ?';
     }
 }
