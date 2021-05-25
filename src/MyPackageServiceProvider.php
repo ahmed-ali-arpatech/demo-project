@@ -3,6 +3,7 @@
 namespace Titus\Beatle;
 
 use Illuminate\Support\ServiceProvider;
+use Titus\Beatle\Classes\APIClass;
 
 class MyPackageServiceProvider extends ServiceProvider
 {

@@ -1,5 +1,5 @@
 <?php
-namespace Titus\Beatle; 
+namespace Titus\Beatle\Facades; 
 
 use Illuminate\Support\Facades\Facade;
 
