@@ -63,7 +63,7 @@ class AuthHandler
     public function __call($method, $param = [])
     {
     	$session = Session::get('users-resource', []);
-        return isset($session[$method]) ? $session[$method] : null;
+        return isset($session[$method]) ? $session[$method] : 0;
     }
 
     function fullName(){
