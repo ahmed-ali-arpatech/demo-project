@@ -21,9 +21,9 @@ class MyPackageServiceProvider extends ServiceProvider
             return new APIClass;
         });
 
-        $this->app->bind('AuthHandler',function() {
-            return new AuthHandler;
-        });
+        // $this->app->bind('AuthHandler',function() {
+        //     return new AuthHandler;
+        // });
     }
 
     /**

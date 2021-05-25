@@ -24,8 +24,12 @@
     },
     "extra": {
         "laravel": { 
+            "providers": [
+                "Titus\\Beatle\\Providers\\AuthServiceProvider"
+            ],
             "aliases": {
-                "CustomPackageFacade": "Titus\\Beatle\\Facades\\APIFacade"
+                "CustomPackageFacade": "Titus\\Beatle\\Facades\\APIFacade",
+                "AuthHandlerFacade": "Titus\\Beatle\\Facades\\AuthHandlerFacade"
             }
         }
     },
