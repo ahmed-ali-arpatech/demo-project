@@ -14,6 +14,10 @@ class MyPackageServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->make('Titus\Beatle\Greeter');        
+
+        $this->app->bind('APIHandler',function() {
+            return new APIClass;
+        });
     }
 
     /**

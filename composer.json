@@ -15,7 +15,8 @@
             "Titus\\Beatle\\": "src/"
         },
         "classmap": [
-            "database/migrations"        
+            "database/migrations",
+            "src/Classes"     
         ],
         "files": [
             "src/Helpers/helpers.php"
