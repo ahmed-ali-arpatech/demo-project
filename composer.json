@@ -22,5 +22,12 @@
             "src/Helpers/helpers.php"
         ]
     },
+    "extra": {
+        "laravel": { 
+            "aliases": {
+                "CustomPackageFacade": "Titus\\Beatle\\Facades\\APIFacade"
+            }
+        }
+    },
     "require": {}
 }
