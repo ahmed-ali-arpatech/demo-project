@@ -1,5 +1,5 @@
 <?php
-namespace Titus\Beatle; 
+namespace Titus\Beatle\Classes; 
 
 
 use GuzzleHttp\Exception\GuzzleException;
