@@ -4,6 +4,7 @@ namespace Titus\Beatle;
 
 use Illuminate\Support\ServiceProvider;
 use Titus\Beatle\Classes\APIClass;
+use Titus\Beatle\Classes\AuthHandler;
 
 class MyPackageServiceProvider extends ServiceProvider
 {
@@ -18,6 +19,10 @@ class MyPackageServiceProvider extends ServiceProvider
 
         $this->app->bind('APIHandler',function() {
             return new APIClass;
+        });
+
+        $this->app->bind('AuthHandler',function() {
+            return new AuthHandler;
         });
     }
 
